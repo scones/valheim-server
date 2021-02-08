@@ -1,7 +1,7 @@
 FROM steamcmd/steamcmd:latest
 
 ARG SERVER_DIRECTORY=/server
-ARG WORLDS_DIRECTORY=/world
+ARG WORLDS_DIRECTORY=/root/.config/unity3d/IronGate/Valheim/worlds/
 
 EXPOSE 2456/tcp
 EXPOSE 2456/udp
